@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3FAC552532588A00F312E0 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1E3FAC542532588A00F312E0 /* YOLOv3.mlmodel */; };
 		1EC61FDD25324BB9008AD6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC61FDC25324BB9008AD6D9 /* AppDelegate.swift */; };
 		1EC61FDF25324BB9008AD6D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC61FDE25324BB9008AD6D9 /* SceneDelegate.swift */; };
 		1EC61FE125324BB9008AD6D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC61FE025324BB9008AD6D9 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		1EC61FE925324BBA008AD6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC61FE725324BBA008AD6D9 /* LaunchScreen.storyboard */; };
 		1EC61FF425324BBA008AD6D9 /* CoreMLYOLOExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC61FF325324BBA008AD6D9 /* CoreMLYOLOExampleTests.swift */; };
 		1EC61FFF25324BBA008AD6D9 /* CoreMLYOLOExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC61FFE25324BBA008AD6D9 /* CoreMLYOLOExampleUITests.swift */; };
+		1EC6200D25324F09008AD6D9 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6200C25324F09008AD6D9 /* ObjectDetectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3FAC542532588A00F312E0 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		1EC61FD925324BB9008AD6D9 /* CoreMLYOLOExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLYOLOExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC61FDC25324BB9008AD6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EC61FDE25324BB9008AD6D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		1EC61FFA25324BBA008AD6D9 /* CoreMLYOLOExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLYOLOExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC61FFE25324BBA008AD6D9 /* CoreMLYOLOExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLYOLOExampleUITests.swift; sourceTree = "<group>"; };
 		1EC6200025324BBA008AD6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC6200C25324F09008AD6D9 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				1EC61FDC25324BB9008AD6D9 /* AppDelegate.swift */,
 				1EC61FDE25324BB9008AD6D9 /* SceneDelegate.swift */,
 				1EC61FE025324BB9008AD6D9 /* ViewController.swift */,
+				1EC6200C25324F09008AD6D9 /* ObjectDetectionViewController.swift */,
 				1EC61FE225324BB9008AD6D9 /* Main.storyboard */,
+				1E3FAC542532588A00F312E0 /* YOLOv3.mlmodel */,
 				1EC61FE525324BBA008AD6D9 /* Assets.xcassets */,
 				1EC61FE725324BBA008AD6D9 /* LaunchScreen.storyboard */,
 				1EC61FEA25324BBA008AD6D9 /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3FAC552532588A00F312E0 /* YOLOv3.mlmodel in Sources */,
 				1EC61FE125324BB9008AD6D9 /* ViewController.swift in Sources */,
 				1EC61FDD25324BB9008AD6D9 /* AppDelegate.swift in Sources */,
 				1EC61FDF25324BB9008AD6D9 /* SceneDelegate.swift in Sources */,
+				1EC6200D25324F09008AD6D9 /* ObjectDetectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
